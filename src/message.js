@@ -1,6 +1,6 @@
 const { TextChannel, Collection, Snowflake, Message, DMChannel } = require("discord.js");
 
-exports const message = (
+modules.exports = (message) => (
 	channel: TextChannel | DMChannel,
 	options: {
 		// Your question 
